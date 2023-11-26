@@ -1,7 +1,9 @@
 @import 'config';
 @import 'utils';
+@import 'responsive';
 @import 'button';
 @import 'class';
+
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
 
 * {
@@ -12,10 +14,11 @@
 
 body {
     background-color: $background-color-1;
-    min-width: 1440px;
+    //width: 1440px;
+   // min-width: 720px;
     display: grid;
     grid-template-rows: 1080px 0px;
     font-family: 'Hanken Grotesk', sans-serif;
+    align-items: center;
+    justify-content: center;
 }
-
-//////confirm commit test
